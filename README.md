@@ -1,2 +1,2 @@
 # Responsive_portfolio
-Responsive design
+Responsive design of portfolio
