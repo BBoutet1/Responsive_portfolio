@@ -24,3 +24,10 @@ a:link {
   color:grey;
 }
 
+a:hover {
+  color: blue;
+}
+
+a:visited {
+  color:red;
+}
