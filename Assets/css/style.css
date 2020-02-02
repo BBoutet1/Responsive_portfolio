@@ -16,7 +16,13 @@ h1{
   border-bottom: grey;
   border-bottom-style: solid;
   border-width: 2px;
-
+}
+main {
+  width: 980px;
+}
+.container{
+  margin-left: 50px;
+  float: left;
 }
 
 
@@ -30,4 +36,10 @@ a:hover {
 
 a:visited {
   color:red;
+}
+
+img {
+  width: 200px;
+  height: 151px;
+  margin: 0px;
 }
