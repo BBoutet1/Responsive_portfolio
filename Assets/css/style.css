@@ -44,60 +44,35 @@ h2{
   border-bottom-style: solid;
   border-width: 2px;
 }
-
+.nav-link{
+  padding: 10px;
+}
 /*Page main content container */
 main {
   margin-top: 35px;
   overflow: auto;
+  }
+section{
+  padding:0px 15px 0px 15px;
 }
-
 .container {
   margin-bottom: 0px;
+  padding: 0px;
 }
 
-/*Fixed heeder height*/
+footer {
+  background-color: rgb(53, 51, 51);
+  text-align: center;
+  height: 40px;
+  color: white;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
 
-
-
-
-
-@media screen and (min-width: 980px) {
-
-  /* The container width will be 780px where the screen size is above 980px*/
-  .container {
-    width: 720px;
-    margin-left: 50px;
-   }
- 
+  border-top: rgb(33, 119, 99);
+  border-top-style: solid;
+  border-width: 6px;
 }
-
-@media screen and (max-width: 980px) {
-
-  /* The container width will be 780px where the screen size is above 980px*/
-  .container {
-    width: auto;
-    margin-right: 15px;
-    margin-left: 15px;
-   }
- 
-}
-
-@media screen and (max-width: 640px) {
-
-  /* The container width will be 780px where the screen size is above 980px*/
-  .container {
-    width: auto;
-    margin-right: 15px;
-    margin-left: 15px;
-   }
-
-   h1{
-     width: 640px;
-     text-align: center;
-   }
- 
-}
-
 
 a:link {
   color:grey;
@@ -119,3 +94,56 @@ img {
   margin: 0 10px 10px 0;
   float: left;
 }
+
+
+@media screen and (min-width: 980px) {
+
+  /* The container width will be 780px where the screen size is above 980px*/
+  .container {
+    width: 720px;
+    margin-left: 50px;
+   }
+ 
+}
+
+@media screen and (max-width: 980px) {
+
+  /* The container width will be 780px where the screen size is above 980px*/
+  .container {
+    margin-right: 15px;
+    margin-left: 15px;
+   }
+
+}
+
+@media screen and (max-width: 640px) {
+
+  /* The container width will be 780px where the screen size is above 980px*/
+  .container {
+    width: auto;
+    margin-right: 0px;
+    margin-left: 0px;
+   }
+
+   /* overriding the .container margins for sm screen*/
+   .sm-main{
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+
+/*h1 headings on the full width*/
+   h1{
+     width: 100%;
+     text-align: center;
+   }
+
+  /*Centered ul list*/
+  
+   ul {
+        margin-left: 30px;
+      
+       }
+
+}
+ 
