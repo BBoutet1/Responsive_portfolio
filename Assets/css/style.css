@@ -5,13 +5,14 @@ body{
 
 h1{
   background: rgb(33, 119, 99);
+  font-size: 24px;
   color: white;
   padding: 20px;
   margin-bottom: 0px;
 }
 
 h2{
-  font-size: 36px;
+  font-size: 24px;
   color: rgb(33, 119, 99);
   border-bottom: rgb(173, 171, 171);
   border-bottom-style: solid;
@@ -29,6 +30,10 @@ h2{
   font-size: 16px;
   text-align: justify;
   text-justify: inter-word;
+}
+
+section{
+  padding: 15px;
 }
 
 .navbar{
