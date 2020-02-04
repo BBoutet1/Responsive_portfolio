@@ -1,16 +1,20 @@
+
+/*Main background and font family defined*/
 body{
   background-image: url("../images/background.jpg");
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
+/* Name on header whith h1 heading attributes*/
 h1{
   background: rgb(33, 119, 99);
   font-size: 24px;
   color: white;
   padding: 20px;
   margin-bottom: 0px;
-}
+  }
 
+/* container heading "About Me" attributes*/
 h2{
   font-size: 24px;
   color: rgb(33, 119, 99);
@@ -20,22 +24,20 @@ h2{
  }
 
 
-
+/*Content headings */
  h3 {
-  font-size: 18px;
-  line-height: 150%;
+  font-size: 16px;
  }
 
+ /* Paragraphs text attributes*/
  p{
-  font-size: 16px;
+  font-size: 14px;
   text-align: justify;
   text-justify: inter-word;
 }
 
-section{
-  padding: 15px;
-}
 
+/*navigation bar container*/
 .navbar{
   padding: 0px;
   border-bottom: rgb(173, 171, 171);
@@ -43,24 +45,57 @@ section{
   border-width: 2px;
 }
 
+/*Page main content container */
 main {
-  width: 560px;
-  font-size: 36px;
   margin-top: 35px;
   overflow: auto;
 }
+
 .container {
-  padding: 0px;
+  margin-bottom: 0px;
 }
+
+/*Fixed heeder height*/
+
+
+
 
 
 @media screen and (min-width: 980px) {
 
-  /* The container width will be 600px */
+  /* The container width will be 780px where the screen size is above 980px*/
   .container {
     width: 720px;
     margin-left: 50px;
-  }
+   }
+ 
+}
+
+@media screen and (max-width: 980px) {
+
+  /* The container width will be 780px where the screen size is above 980px*/
+  .container {
+    width: auto;
+    margin-right: 15px;
+    margin-left: 15px;
+   }
+ 
+}
+
+@media screen and (max-width: 640px) {
+
+  /* The container width will be 780px where the screen size is above 980px*/
+  .container {
+    width: auto;
+    margin-right: 15px;
+    margin-left: 15px;
+   }
+
+   h1{
+     width: 640px;
+     text-align: center;
+   }
+ 
 }
 
 
@@ -76,6 +111,8 @@ a:visited {
   color:red;
 }
 
+
+/*Image attributes*/
 img {
   width: 195px;
   height: 146px;
