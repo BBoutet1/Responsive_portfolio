@@ -78,16 +78,22 @@ h2{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 06e3a53... class .center to be used to center navigation list
  main {
 =======
 main {
 >>>>>>> b48c1ab... .centerSection replaced by .center to be used to center content
+<<<<<<< HEAD
 =======
  main {
 >>>>>>> c923bb6... troubleshooting background image not in github webpage
 =======
  main {
 >>>>>>> 122575f... index.html hyperlinks updated
+=======
+>>>>>>> 06e3a53... class .center to be used to center navigation list
   margin-top: 30px;
   overflow: auto;
   padding: 15px;
@@ -158,6 +164,7 @@ img {
   height: 146px;
   margin: 0 10px 10px 0;
   float: left;
+<<<<<<< HEAD
 =======
 /*Image attributes*/
 img {
@@ -192,6 +199,12 @@ img {
   margin-left: 0px;
 >>>>>>> e6cd4c7... index imal left layout style in index.html
 }
+=======
+}
+
+
+>>>>>>> b48c1ab... .centerSection replaced by .center to be used to center content
+>>>>>>> 06e3a53... class .center to be used to center navigation list
 
 <<<<<<< HEAD
 =======
@@ -226,10 +239,13 @@ img {
 =======
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 047c78f... code clean-up
 =======
 
 >>>>>>> 9636964... code clean-up
+=======
+>>>>>>> 06e3a53... class .center to be used to center navigation list
 
 /*portfolio box*/
 .box {
@@ -246,6 +262,7 @@ img {
   justify-content: center;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 /* Section padding to 0 in portfolio.html images section*/
@@ -253,12 +270,18 @@ img {
 =======
 /* Section padding to 0 in portfolio.html images section*/
 >>>>>>> e6cd4c7... index imal left layout style in index.html
+=======
+=======
+>>>>>>> 06e3a53... class .center to be used to center navigation list
 .ZeroPaddingdSection{
 padding: 0px;
 }
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 06e3a53... class .center to be used to center navigation list
 /*Portfolio image attributes */
 .images {
 
@@ -268,6 +291,7 @@ padding: 0px;
   float: left;
 }
 >>>>>>> b48c1ab... .centerSection replaced by .center to be used to center content
+<<<<<<< HEAD
 
 /*Second picture colone float on right*/
 .float-right{
@@ -286,12 +310,23 @@ padding: 0px;
 =======
 =======
 >>>>>>> 1291de3... Index image:Image: centered and responsive size for small screen  (index)
+=======
+>>>>>>> 06e3a53... class .center to be used to center navigation list
 
+/*Second picture colone float on right*/
+.float-right{
+  float: right;
 }
 
+<<<<<<< HEAD
 >>>>>>> 047c78f... code clean-up
 =======
 >>>>>>> 2c6b5d9... bottom margin ajusted
+=======
+
+
+
+>>>>>>> 06e3a53... class .center to be used to center navigation list
 @media screen and (min-width: 980px) {
 
 <<<<<<< HEAD
@@ -378,6 +413,7 @@ padding: 0px;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 480px;
 =======
     width: 540px;
@@ -403,6 +439,12 @@ padding: 0px;
 =======
     width: 480px;
 >>>>>>> 9636964... code clean-up
+=======
+    width: 480px;
+=======
+    width: 540px;
+>>>>>>> b48c1ab... .centerSection replaced by .center to be used to center content
+>>>>>>> 06e3a53... class .center to be used to center navigation list
     margin-right: 15px;
     margin-left: 15px;
    }
@@ -508,6 +550,7 @@ padding: 0px;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       }
 
 /* Responsive index image*/
@@ -519,6 +562,8 @@ padding: 0px;
 img{
 >>>>>>> 498c771... Index image:Image: centered and responsive size for small screen  (index)
 =======
+=======
+>>>>>>> 06e3a53... class .center to be used to center navigation list
       }
 
 /* Responsive index image*/
@@ -633,6 +678,10 @@ footer {
 =======
 >>>>>>> 9636964... code clean-up
   
+=======
+   }
+ 
+>>>>>>> b48c1ab... .centerSection replaced by .center to be used to center content
 }
 
 footer {
