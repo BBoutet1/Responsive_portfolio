@@ -4,6 +4,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 53af256... Update README.md
 Responsive design of my portfolio incorporating following pages: `index.html`, `portfolio.html` and `contact.html`.
 
 
@@ -14,6 +17,7 @@ Responsive design of my portfolio incorporating following pages: `index.html`, `
 * Bootstrap with the following items:
 =======
 Responsive design of my portfolio incorporating following pages: `index.html`, `portfolio.html` and `contact.html.
+<<<<<<< HEAD
 =======
 Responsive design of my portfolio incorporating following pages: `index.html`, `portfolio.html` and `contact.html`.
 >>>>>>> ec59744... Update README.md
@@ -23,11 +27,14 @@ Responsive design of my portfolio incorporating following pages: `index.html`, `
 =======
 Responsive design of my portfolio incorporating following pages: `index.html`, `portfolio.html` and `contact.html`.
 >>>>>>> ba23531... Update README.md
+=======
+>>>>>>> 53af256... Update README.md
 
 
 # Responsive Portfolio
 
 * Using Bootstrap with the following items:
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 879c23b... Update README.md
 =======
@@ -40,6 +47,9 @@ Responsive design of my portfolio incorporating following pages: `index.html`, `
 
 * Bootstrap with the following items:
 >>>>>>> 9636964... code clean-up
+=======
+>>>>>>> 879c23b... Update README.md
+>>>>>>> 53af256... Update README.md
 
    * A navbar
 
