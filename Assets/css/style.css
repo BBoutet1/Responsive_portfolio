@@ -8,9 +8,11 @@
 body{
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   padding: 0px;
   margin: 0px;
   margin-bottom: 50px;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> dad593c... updating the css file
@@ -20,6 +22,12 @@ body{
 >>>>>>> c923bb6... troubleshooting background image not in github webpage
 =======
 >>>>>>> 047c78f... code clean-up
+=======
+  padding: 0px;
+  margin: 0px;
+>>>>>>> 122575f... index.html hyperlinks updated
+=======
+>>>>>>> 9636964... code clean-up
   background-image: url("../Images/background.jpg");
   font-family: Georgia, "Times New Roman", Times, serif;
 }
@@ -69,6 +77,7 @@ h2{
 /*Page main content container */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  main {
 =======
 main {
@@ -76,6 +85,9 @@ main {
 =======
  main {
 >>>>>>> c923bb6... troubleshooting background image not in github webpage
+=======
+ main {
+>>>>>>> 122575f... index.html hyperlinks updated
   margin-top: 30px;
   overflow: auto;
   padding: 15px;
@@ -191,15 +203,20 @@ img {
  }
 >>>>>>> 8b30bb0... portflio.html complete
 
+<<<<<<< HEAD
 >>>>>>> b48c1ab... .centerSection replaced by .center to be used to center content
 
 =======
 >>>>>>> 5dd823e... bottom margin ajusted
+=======
+>>>>>>> 2c6b5d9... bottom margin ajusted
 /*Section content in center*/
 .center{
   display: flex;
   justify-content: center;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -210,6 +227,9 @@ img {
 
 <<<<<<< HEAD
 >>>>>>> 047c78f... code clean-up
+=======
+
+>>>>>>> 9636964... code clean-up
 
 /*portfolio box*/
 .box {
@@ -224,6 +244,7 @@ img {
   
   display: inline-block;
   justify-content: center;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -269,6 +290,8 @@ padding: 0px;
 }
 
 >>>>>>> 047c78f... code clean-up
+=======
+>>>>>>> 2c6b5d9... bottom margin ajusted
 @media screen and (min-width: 980px) {
 
 <<<<<<< HEAD
@@ -283,6 +306,7 @@ padding: 0px;
 >>>>>>> b48c1ab... .centerSection replaced by .center to be used to center content
     margin-left: 50px;
    }
+<<<<<<< HEAD
 =======
   /* The container width will be 560px where the screen size is above 980px*/
 =======
@@ -298,6 +322,11 @@ padding: 0px;
 =======
   /* The container width will be 560px where the screen size is above 980px*/
 =======
+=======
+
+}
+
+>>>>>>> 9636964... code clean-up
 @media screen and (min-width: 980px) {
 
   /************* Container attributes definition above 980px screen size*********/
@@ -322,7 +351,10 @@ padding: 0px;
 >>>>>>> 498c771... Index image:Image: centered and responsive size for small screen  (index)
 =======
 >>>>>>> 8b8178c... Viewport meta tag added
+=======
+>>>>>>> d7ecc41... Viewport meta tag added
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -335,10 +367,13 @@ padding: 0px;
 =======
 
 >>>>>>> e6cd4c7... index imal left layout style in index.html
+=======
+>>>>>>> 2c6b5d9... bottom margin ajusted
 @media screen and (max-width: 980px) {
 
  /************* Container attributes definition below 980px screen size*********/
   .container {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -365,9 +400,13 @@ padding: 0px;
 =======
     width: 520px;
 >>>>>>> 1291de3... Index image:Image: centered and responsive size for small screen  (index)
+=======
+    width: 480px;
+>>>>>>> 9636964... code clean-up
     margin-right: 15px;
     margin-left: 15px;
    }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
  
@@ -379,6 +418,7 @@ padding: 0px;
 <<<<<<< HEAD
 @media screen and (max-width: 640px) {
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   /******* Layout below 640 px screen size***************/
 
@@ -397,6 +437,8 @@ padding: 0px;
    }
 }
 >>>>>>> 047c78f... code clean-up
+=======
+>>>>>>> 2c6b5d9... bottom margin ajusted
 @media screen and (max-width: 640px) {
 
 <<<<<<< HEAD
@@ -419,11 +461,22 @@ padding: 0px;
 =======
 
 
+=======
+   .box{
+    float: none;
+    margin: auto;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+   }
+}
+>>>>>>> 9636964... code clean-up
 @media screen and (max-width: 640px) {
 
   /******* Layout below 640 px screen size***************/
 >>>>>>> e6cd4c7... index imal left layout style in index.html
 
+<<<<<<< HEAD
   body{
     min-width: 360px;
   }
@@ -433,6 +486,8 @@ padding: 0px;
 >>>>>>> 1291de3... Index image:Image: centered and responsive size for small screen  (index)
 =======
 >>>>>>> e6cd4c7... index imal left layout style in index.html
+=======
+>>>>>>> d7ecc41... Viewport meta tag added
   .container {
     width: auto;
     margin-right: 0px;
@@ -482,8 +537,11 @@ img{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 047c78f... code clean-up
+=======
+>>>>>>> 9636964... code clean-up
   clear: both;
   margin-right: 0px;
   padding-right: 0px;
@@ -496,6 +554,7 @@ img{
   display: flex;
   justify-content: center;
  }
+<<<<<<< HEAD
   
 =======
    }
@@ -529,6 +588,7 @@ form{
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 footer {
   background-color: rgb(53, 51, 51);
   text-align: center;
@@ -555,6 +615,9 @@ footer {
 }
 =======
 
+=======
+
+>>>>>>> 2c6b5d9... bottom margin ajusted
 
 .box {
   width: 250px;
@@ -567,6 +630,8 @@ footer {
   border-width: 2px;
 >>>>>>> 5dd823e... bottom margin ajusted
 
+=======
+>>>>>>> 9636964... code clean-up
   
 }
 
@@ -592,7 +657,11 @@ footer {
 =======
 =======
   margin-right: 0px;
+<<<<<<< HEAD
 >>>>>>> e6cd4c7... index imal left layout style in index.html
+=======
+  padding-right: 0px;
+>>>>>>> d7ecc41... Viewport meta tag added
 }
 
   
@@ -607,6 +676,7 @@ footer {
   bottom: 0;
   width: 100%;
 
+<<<<<<< HEAD
   border-top: rgb(33, 119, 99);
   border-top-style: solid;
   border-width: 6px;
@@ -669,8 +739,11 @@ footer {
 }
 
 /* Bottom right text */
+=======
+/*  porfolio text container*/
+>>>>>>> 9636964... code clean-up
 .text-block {
-  width: 200;
+  width: 100%;
   padding-top: 5px;
   padding-bottom: 5px;
   margin-top: 99px;
@@ -680,17 +753,40 @@ footer {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8b30bb0... portflio.html complete
 =======
+=======
+/*contact page button*/
+>>>>>>> 9636964... code clean-up
 .btn{
   background-color: rgb(33, 119, 99);
   color: white;
 }
 
+/*contact page form*/
 form{
   color:rgb(71, 69, 69); ;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b820f47... contact.html complete
 =======
 >>>>>>> d5ddc7e... Update README.md
+=======
+
+footer {
+  background-color: rgb(53, 51, 51);
+  text-align: center;
+  height: 40px;
+  color: white;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  margin-top: 50px;
+
+  border-top: rgb(33, 119, 99);
+  border-top-style: solid;
+  border-width: 6px;
+}
+>>>>>>> 2c6b5d9... bottom margin ajusted
