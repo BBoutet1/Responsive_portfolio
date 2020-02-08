@@ -10,6 +10,7 @@ body{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   padding: 0px;
   margin: 0px;
   margin-bottom: 50px;
@@ -30,12 +31,21 @@ body{
 =======
 >>>>>>> 9636964... code clean-up
 =======
+=======
+>>>>>>> 56293cf... background image set-up
   padding: 0px;
   margin: 0px;
   margin-bottom: 50px;
 =======
 >>>>>>> dad593c... updating the css file
+<<<<<<< HEAD
 >>>>>>> d874268... updating the css file
+=======
+=======
+  padding: 0px;
+  margin: 0px;
+>>>>>>> c923bb6... troubleshooting background image not in github webpage
+>>>>>>> 56293cf... background image set-up
   background-image: url("../Images/background.jpg");
   font-family: Georgia, "Times New Roman", Times, serif;
 }
@@ -87,12 +97,16 @@ h2{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 06e3a53... class .center to be used to center navigation list
+=======
+>>>>>>> 56293cf... background image set-up
  main {
 =======
 main {
 >>>>>>> b48c1ab... .centerSection replaced by .center to be used to center content
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
  main {
@@ -102,6 +116,11 @@ main {
 >>>>>>> 122575f... index.html hyperlinks updated
 =======
 >>>>>>> 06e3a53... class .center to be used to center navigation list
+=======
+=======
+ main {
+>>>>>>> c923bb6... troubleshooting background image not in github webpage
+>>>>>>> 56293cf... background image set-up
   margin-top: 30px;
   overflow: auto;
   padding: 15px;
@@ -430,6 +449,7 @@ padding: 0px;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    
    
 =======
@@ -466,6 +486,8 @@ padding: 0px;
   
 >>>>>>> 8b30bb0... portflio.html complete
 =======
+=======
+>>>>>>> d03d4b8... Viewport meta tag added
    
    
 >>>>>>> 23ddb09... index imal left layout style in index.html
@@ -473,8 +495,11 @@ padding: 0px;
 >>>>>>> 498c771... Index image:Image: centered and responsive size for small screen  (index)
 =======
 >>>>>>> 8b8178c... Viewport meta tag added
+<<<<<<< HEAD
 =======
 >>>>>>> d7ecc41... Viewport meta tag added
+=======
+>>>>>>> d03d4b8... Viewport meta tag added
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -602,6 +627,7 @@ padding: 0px;
 >>>>>>> acaf85a... index imal left layout style in index.html
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   body{
     min-width: 120px;
   }
@@ -639,8 +665,10 @@ padding: 0px;
 =======
 
 >>>>>>> 898784a... Index.htm: responsive image size and layout
+=======
+>>>>>>> d03d4b8... Viewport meta tag added
   body{
-    min-width: 360px;
+    min-width: 120px;
   }
 
 <<<<<<< HEAD
@@ -661,7 +689,12 @@ padding: 0px;
 >>>>>>> 498c771... Index image:Image: centered and responsive size for small screen  (index)
 =======
 >>>>>>> acaf85a... index imal left layout style in index.html
+<<<<<<< HEAD
 >>>>>>> 23ddb09... index imal left layout style in index.html
+=======
+=======
+>>>>>>> 8b8178c... Viewport meta tag added
+>>>>>>> d03d4b8... Viewport meta tag added
   .container {
     width: auto;
     margin-right: 0px;
