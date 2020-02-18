@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Contact</title>
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+   <!--CSS stylesheed-->
+   <link rel="stylesheet" type="text/css" href="../Assets/css/style.css">
+</head>
+<body>
+  <!--Header bar-->
+  <header >
+    <!--Bootstrap navigation bar-->
+    <nav class="navbar bg-white">
+      <section class="container row col">
+        <!--My name as heading 1-->
+        <h1> <strong> Brice L. Boutet </strong></h1>
+      </section>
+      <section class="center">
+        <!--Navigation list-->
+        <ul class="nav">
+          <li class="nav-item" ><a class="nav-link" href="../index.html">About Me</a></li>
+          <li class="nav-item" ><p class="nav-link">|</p></li>
+          <li class="nav-item" ><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+          <li class="nav-item" ><p class="nav-link">|</p></li>
+          <li class="nav-item" ><a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+        </section>
+    </nav>
+  </header>
+  
+  <main  class="container bg-white sm-main">
+    <!--Paragraphs and image in one section using bootstrap grid-->
+    <section>
+    <!--h2 heading-->
+        <h2> <strong>Contact</strong></h2>
+    </section>
+    <section>
+      <form action="/action_page.php">
+          <div class="form-group">
+            <label for="usr">Name:</label>
+            <input type="text" class="form-control" id="usr" name="username" placeholder="John Smith">
+          </div>
+          <div class="form-group">
+            <label for="pwd">Email:</label>
+            <input type="email" class="form-control" name="email" placeholder="example@example.com">
+          </div>
+          <div class="form-group">
+              <label for="comment">Comment:</label>
+              <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+          </div>
+          <div>
+            <button type="submit" class="btn">Submit</button>
+         </div>
+      </form>
+    </section>
+  </main>
+  <footer>
+    &copy; Copyright
+  </footer>
+</body>
+</html>

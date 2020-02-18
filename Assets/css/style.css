@@ -1,65 +1,23 @@
 
-* {
-  box-sizing: border-box;
-}
-
-
 /*Main background and font family defined*/
 body{
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
   padding: 0px;
   margin: 0px;
   margin-bottom: 50px;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dad593c... updating the css file
-=======
-  padding: 0px;
-  margin: 0px;
->>>>>>> c923bb6... troubleshooting background image not in github webpage
-=======
->>>>>>> 047c78f... code clean-up
-=======
-  padding: 0px;
-  margin: 0px;
->>>>>>> 122575f... index.html hyperlinks updated
-=======
->>>>>>> 9636964... code clean-up
-=======
-=======
->>>>>>> 56293cf... background image set-up
-  padding: 0px;
-  margin: 0px;
-  margin-bottom: 50px;
-=======
->>>>>>> dad593c... updating the css file
-<<<<<<< HEAD
->>>>>>> d874268... updating the css file
-=======
-=======
-  padding: 0px;
-  margin: 0px;
->>>>>>> c923bb6... troubleshooting background image not in github webpage
->>>>>>> 56293cf... background image set-up
   background-image: url("../Images/background.jpg");
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-/* Name on header whith h1 heading attributes*/
+/* h1 heading (my mame) attributes*/
 h1{
   background: rgb(33, 119, 99);
   font-size: 24px;
   color: white;
   padding: 20px;
-  margin-bottom: 0px;
+  margin: 0px;
   }
 
-/* container heading "About Me" attributes*/
+/* h2 heading "About Me" attributes*/
 h2{
   font-size: 24px;
   color: rgb(33, 119, 99);
@@ -69,7 +27,7 @@ h2{
  }
 
 
-/*Content headings */
+/*h3 inndex content attributes */
  h3 {
   font-size: 16px;
  }
@@ -80,103 +38,37 @@ h2{
   text-align: justify;
   text-justify: inter-word;
 }
-
-
 /*navigation bar container  */
 .navbar{
   padding: 0px;
   border-bottom: rgb(173, 171, 171);
   border-bottom-style: solid;
   border-width: 2px;
+  margin-bottom: 30px;
 }
 .nav-link{
-  padding: 10px;
+  padding: 5px;
 }
-/*Page main content container */
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 06e3a53... class .center to be used to center navigation list
-=======
->>>>>>> 56293cf... background image set-up
- main {
-=======
+/*'main'tag box content attribute*/ 
 main {
->>>>>>> b48c1ab... .centerSection replaced by .center to be used to center content
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
- main {
->>>>>>> c923bb6... troubleshooting background image not in github webpage
-=======
- main {
->>>>>>> 122575f... index.html hyperlinks updated
-=======
->>>>>>> 06e3a53... class .center to be used to center navigation list
-=======
-=======
- main {
->>>>>>> c923bb6... troubleshooting background image not in github webpage
->>>>>>> 56293cf... background image set-up
-  margin-top: 30px;
   overflow: auto;
   padding: 15px;
   }
 
+/*section tag initial attributes*/
 section{
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 898784a... Index.htm: responsive image size and layout
-=======
->>>>>>> 23ddb09... index imal left layout style in index.html
-   padding: 0 20px 10px 20px;
-   margin: auto;
-=======
-   padding: 10px 20px 10px 20px;
-   margin: auto;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-   padding: 0 20px 10px 20px;
-<<<<<<< HEAD
->>>>>>> acaf85a... index imal left layout style in index.html
-  
->>>>>>> 498c771... Index image:Image: centered and responsive size for small screen  (index)
-=======
-   padding: 10px 20px 10px 20px;
-   margin: auto;
-=======
-   padding: 0 20px 10px 20px;
->>>>>>> e6cd4c7... index imal left layout style in index.html
-  
->>>>>>> 1291de3... Index image:Image: centered and responsive size for small screen  (index)
-=======
-   margin: auto;
->>>>>>> 8b30bb0... portflio.html complete
-=======
-=======
-=======
-   padding: 0 20px 10px 20px;
->>>>>>> acaf85a... index imal left layout style in index.html
->>>>>>> 23ddb09... index imal left layout style in index.html
-  
->>>>>>> 498c771... Index image:Image: centered and responsive size for small screen  (index)
->>>>>>> 898784a... Index.htm: responsive image size and layout
+     padding: 0 20px 10px 20px;
 }
 
+/*container initial attributes*/
 .container {
+  max-width: 720px;
+  margin-left: 50px;
   margin-bottom: 0px;
   padding: 0px;
 }
 
+/*Link selector attributes*/
 a:link {
   color:grey;
 }
@@ -189,843 +81,121 @@ a:visited {
   color:red;
 }
 
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 898784a... Index.htm: responsive image size and layout
-=======
->>>>>>> 23ddb09... index imal left layout style in index.html
-/*Image initial attributes*/
+/*index image attributes*/
 img {
-<<<<<<< HEAD
-  width: 150;
-  height: 100;
-  padding: 15px;
-  padding-top: 0px;
-  padding-left: 0px;
- }
-=======
-  width: 195px;
-  height: 146px;
-  margin: 0 10px 10px 0;
+  width: 250px;
+  height: 160px;
+  margin: 15px;
+  margin-top: 0px;
+  margin-left: 0px;
   float: left;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 898784a... Index.htm: responsive image size and layout
-=======
-/*Image attributes*/
-img {
-  width: 250px;
-  height: 160px;
-  margin: auto;
->>>>>>> 498c771... Index image:Image: centered and responsive size for small screen  (index)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-/*Image initial attributes*/
-img {
-<<<<<<< HEAD
-=======
-=======
-/*Image initial attributes*/
-img {
->>>>>>> 23ddb09... index imal left layout style in index.html
-  width: 250px;
-  height: 160px;
-  margin: 15px;
-  margin-top: 0px;
-  margin-left: 0px;
->>>>>>> acaf85a... index imal left layout style in index.html
-<<<<<<< HEAD
-=======
-/*Image attributes*/
-img {
-  width: 250px;
-  height: 160px;
-  margin: auto;
->>>>>>> 1291de3... Index image:Image: centered and responsive size for small screen  (index)
-=======
-/*Image initial attributes*/
-img {
-  width: 250px;
-  height: 160px;
-  margin: 15px;
-  margin-top: 0px;
-  margin-left: 0px;
->>>>>>> e6cd4c7... index imal left layout style in index.html
-}
-=======
-=======
->>>>>>> 898784a... Index.htm: responsive image size and layout
-=======
->>>>>>> 23ddb09... index imal left layout style in index.html
 }
 
-
->>>>>>> b48c1ab... .centerSection replaced by .center to be used to center content
->>>>>>> 06e3a53... class .center to be used to center navigation list
-
-<<<<<<< HEAD
-=======
-  width: 150;
-  height: 100;
-  padding: 15px;
-  padding-top: 0px;
-  padding-left: 0px;
- }
->>>>>>> 8b30bb0... portflio.html complete
-
-<<<<<<< HEAD
->>>>>>> b48c1ab... .centerSection replaced by .center to be used to center content
-
-=======
->>>>>>> 5dd823e... bottom margin ajusted
-=======
->>>>>>> 2c6b5d9... bottom margin ajusted
-/*Section content in center*/
-.center{
-  display: flex;
-  justify-content: center;
-}
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 047c78f... code clean-up
-=======
-
->>>>>>> 9636964... code clean-up
-=======
->>>>>>> 06e3a53... class .center to be used to center navigation list
-=======
->>>>>>> 23ddb09... index imal left layout style in index.html
-
-/*portfolio box*/
+/*portfolio box attributes*/
 .box {
+  float: none;
   width: 250px;
   height: 150px;
   background-image: url(../Images/coming.jpg);
+  margin: auto;
   margin-bottom: 10px;
-  margin-left: 20px;
   border:   rgb(173, 171, 171);
   border-style: solid;
   border-width: 2px;
-  
-  display: inline-block;
+  display: inline-flex;
   justify-content: center;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-/* Section padding to 0 in portfolio.html images section*/
->>>>>>> acaf85a... index imal left layout style in index.html
-=======
-/* Section padding to 0 in portfolio.html images section*/
->>>>>>> e6cd4c7... index imal left layout style in index.html
-=======
-=======
-<<<<<<< HEAD
->>>>>>> 06e3a53... class .center to be used to center navigation list
-=======
-/* Section padding to 0 in portfolio.html images section*/
->>>>>>> acaf85a... index imal left layout style in index.html
->>>>>>> 23ddb09... index imal left layout style in index.html
-.ZeroPaddingdSection{
-padding: 0px;
+
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 06e3a53... class .center to be used to center navigation list
-=======
->>>>>>> 898784a... Index.htm: responsive image size and layout
-/*Portfolio image attributes */
-.images {
-
-  width: 240px;
-  height: 150px;
-  margin: 10px auto 10px auto;
-  float: left;
-}
->>>>>>> b48c1ab... .centerSection replaced by .center to be used to center content
-<<<<<<< HEAD
-
-/*Second picture colone float on right*/
-.float-right{
-  float: right;
+/*navigation list section tag special attributes */
+.center{
+   margin: auto;
+   padding-top: 10px;
+  padding-bottom: 0px;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 498c771... Index image:Image: centered and responsive size for small screen  (index)
-=======
->>>>>>> 8b30bb0... portflio.html complete
-
-=======
->>>>>>> 5dd823e... bottom margin ajusted
-=======
-=======
->>>>>>> 1291de3... Index image:Image: centered and responsive size for small screen  (index)
-=======
->>>>>>> 06e3a53... class .center to be used to center navigation list
-
-/*Second picture colone float on right*/
-.float-right{
-  float: right;
+/*fit the portfolio main tag width*/
+.fitPortfolio{
+  max-width: 544px;
+  clear: both;
 }
 
-<<<<<<< HEAD
->>>>>>> 047c78f... code clean-up
-=======
->>>>>>> 2c6b5d9... bottom margin ajusted
-=======
 
-=======
->>>>>>> 498c771... Index image:Image: centered and responsive size for small screen  (index)
-
-<<<<<<< HEAD
-
->>>>>>> 06e3a53... class .center to be used to center navigation list
-=======
->>>>>>> 23ddb09... index imal left layout style in index.html
-@media screen and (min-width: 980px) {
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 898784a... Index.htm: responsive image size and layout
-=======
->>>>>>> 23ddb09... index imal left layout style in index.html
-  /************* Container attributes definition above 980px screen size*********/
-  .container {
-<<<<<<< HEAD
-    width: 600px;
-=======
-    width: 580px;
->>>>>>> b48c1ab... .centerSection replaced by .center to be used to center content
-    margin-left: 50px;
-   }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-  /* The container width will be 560px where the screen size is above 980px*/
-=======
-  /************* Container attributes definition above 980px screen size*********/
->>>>>>> acaf85a... index imal left layout style in index.html
-<<<<<<< HEAD
-=======
-=======
-  /* The container width will be 560px where the screen size is above 980px*/
->>>>>>> 898784a... Index.htm: responsive image size and layout
-=======
->>>>>>> 23ddb09... index imal left layout style in index.html
-  .container {
-    width: 560px;
-    margin-left: 50px;
-   }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-   
-   
-=======
-  /* The container width will be 560px where the screen size is above 980px*/
-=======
-=======
-
-=======
-
- 
->>>>>>> 498c771... Index image:Image: centered and responsive size for small screen  (index)
->>>>>>> 898784a... Index.htm: responsive image size and layout
+/*  porfolio text container*/
+.text-block {
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 99px;
+  background-color:  rgb(33, 119, 99);
+  color: white;
+  text-align: center;
 }
 
->>>>>>> 9636964... code clean-up
-@media screen and (min-width: 980px) {
-
-  /************* Container attributes definition above 980px screen size*********/
->>>>>>> e6cd4c7... index imal left layout style in index.html
-  .container {
-    width: 600px;
-    margin-left: 50px;
-   }
-<<<<<<< HEAD
-
->>>>>>> 1291de3... Index image:Image: centered and responsive size for small screen  (index)
-=======
-   
-<<<<<<< HEAD
-   
->>>>>>> e6cd4c7... index imal left layout style in index.html
-=======
-
-  
->>>>>>> 8b30bb0... portflio.html complete
-=======
-=======
->>>>>>> d03d4b8... Viewport meta tag added
-   
-   
->>>>>>> 23ddb09... index imal left layout style in index.html
- 
->>>>>>> 498c771... Index image:Image: centered and responsive size for small screen  (index)
-=======
->>>>>>> 8b8178c... Viewport meta tag added
-<<<<<<< HEAD
-=======
->>>>>>> d7ecc41... Viewport meta tag added
-=======
->>>>>>> d03d4b8... Viewport meta tag added
+/*contact page button*/
+.btn{
+  background-color: rgb(33, 119, 99);
+  color: white;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
-
-<<<<<<< HEAD
->>>>>>> acaf85a... index imal left layout style in index.html
-=======
->>>>>>> 5dd823e... bottom margin ajusted
-=======
-
->>>>>>> e6cd4c7... index imal left layout style in index.html
-=======
->>>>>>> 2c6b5d9... bottom margin ajusted
-=======
-=======
-
-
->>>>>>> acaf85a... index imal left layout style in index.html
->>>>>>> 23ddb09... index imal left layout style in index.html
-@media screen and (max-width: 980px) {
+/*contact page form*/
+form{
+  color:rgb(71, 69, 69);
+}
 
  /************* Container attributes definition below 980px screen size*********/
+@media screen and (max-width: 980px) {
+
   .container {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 898784a... Index.htm: responsive image size and layout
-    width: 480px;
-=======
-    width: 540px;
->>>>>>> b48c1ab... .centerSection replaced by .center to be used to center content
-    margin-right: 15px;
-    margin-left: 15px;
-   }
-   .box{
-    float: none;
-    margin: auto;
-    margin-bottom: 10px;
-    display: flex;
-    justify-content: center;
-   }
-=======
-    width: 520px;
-<<<<<<< HEAD
-=======
-    width: 480px;
->>>>>>> 047c78f... code clean-up
-=======
-    width: 520px;
->>>>>>> 1291de3... Index image:Image: centered and responsive size for small screen  (index)
-=======
-    width: 480px;
->>>>>>> 9636964... code clean-up
-=======
-    width: 480px;
-=======
-    width: 540px;
->>>>>>> b48c1ab... .centerSection replaced by .center to be used to center content
->>>>>>> 06e3a53... class .center to be used to center navigation list
-    margin-right: 15px;
-    margin-left: 15px;
-   }
-<<<<<<< HEAD
-<<<<<<< HEAD
-
- 
-<<<<<<< HEAD
->>>>>>> 498c771... Index image:Image: centered and responsive size for small screen  (index)
-=======
->>>>>>> 1291de3... Index image:Image: centered and responsive size for small screen  (index)
-=======
-    margin-right: 15px;
-    margin-left: 15px;
-   }
-
- 
->>>>>>> 498c771... Index image:Image: centered and responsive size for small screen  (index)
->>>>>>> 898784a... Index.htm: responsive image size and layout
-}
-<<<<<<< HEAD
-@media screen and (max-width: 640px) {
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  /******* Layout below 640 px screen size***************/
-
-=======
-=======
-
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-   .box{
-    float: none;
-    margin: auto;
-    margin-bottom: 10px;
-    display: flex;
-    justify-content: center;
-   }
-}
->>>>>>> 047c78f... code clean-up
-=======
->>>>>>> 2c6b5d9... bottom margin ajusted
-@media screen and (max-width: 640px) {
-
-<<<<<<< HEAD
-=======
-
-
-@media screen and (max-width: 640px) {
-
->>>>>>> 23ddb09... index imal left layout style in index.html
-  /******* Layout below 640 px screen size***************/
->>>>>>> acaf85a... index imal left layout style in index.html
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-  body{
-    min-width: 120px;
+    width: auto;
+    margin-right: 20px;
+    margin-left: 20px;
+    }
+  
   }
 
-<<<<<<< HEAD
-  /* The container size is auto when the screen size is below 640px*/
->>>>>>> 498c771... Index image:Image: centered and responsive size for small screen  (index)
-=======
->>>>>>> acaf85a... index imal left layout style in index.html
-=======
->>>>>>> 8b8178c... Viewport meta tag added
-=======
-=======
+ /************* Container attributes definition below 640px screen size*********/
+@media screen and (max-width: 640px) { 
 
-
-=======
-   .box{
-    float: none;
-    margin: auto;
-    margin-bottom: 10px;
-    display: flex;
-    justify-content: center;
-   }
-}
->>>>>>> 9636964... code clean-up
-@media screen and (max-width: 640px) {
-
-  /******* Layout below 640 px screen size***************/
->>>>>>> e6cd4c7... index imal left layout style in index.html
-
-<<<<<<< HEAD
-=======
-  /******* Layout below 640 px screen size***************/
-
-=======
-
->>>>>>> 898784a... Index.htm: responsive image size and layout
-=======
->>>>>>> d03d4b8... Viewport meta tag added
   body{
-    min-width: 120px;
+    min-width: 320px;
   }
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  /* The container size is auto when the screen size is below 640px*/
->>>>>>> 1291de3... Index image:Image: centered and responsive size for small screen  (index)
-=======
->>>>>>> e6cd4c7... index imal left layout style in index.html
-=======
->>>>>>> d7ecc41... Viewport meta tag added
-=======
-  /* The container size is auto when the screen size is below 640px*/
->>>>>>> 498c771... Index image:Image: centered and responsive size for small screen  (index)
->>>>>>> 898784a... Index.htm: responsive image size and layout
-=======
-  /* The container size is auto when the screen size is below 640px*/
->>>>>>> 498c771... Index image:Image: centered and responsive size for small screen  (index)
-=======
->>>>>>> acaf85a... index imal left layout style in index.html
-<<<<<<< HEAD
->>>>>>> 23ddb09... index imal left layout style in index.html
-=======
-=======
->>>>>>> 8b8178c... Viewport meta tag added
->>>>>>> d03d4b8... Viewport meta tag added
+      
   .container {
     width: auto;
     margin-right: 0px;
     margin-left: 0px;
    }
 
-   /* overriding the .container margins for small screen*/
+   /*main tag new attributes*/
    .sm-main{
-    margin-right: 15px;
+       margin-right: 15px;
     margin-left: 15px;
     overflow: auto;
   }
 
-/*h1 headings on the full width*/
+/*h1 headings on full screen width*/
    h1{
      width: 100%;
      text-align: center;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 898784a... Index.htm: responsive image size and layout
       }
 
-/* Responsive index image*/
-.image{
-=======
-      }
-<<<<<<< HEAD
-<<<<<<< HEAD
+ /*justify the porfolio content*/   
+  .box{
+    float: none;
+    margin: auto;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+  }
 
-/* Responsive index image*/
-img{
->>>>>>> 498c771... Index image:Image: centered and responsive size for small screen  (index)
-=======
-=======
->>>>>>> 06e3a53... class .center to be used to center navigation list
-      }
-
-/* Responsive index image*/
-<<<<<<< HEAD
-img{
->>>>>>> 1291de3... Index image:Image: centered and responsive size for small screen  (index)
-=======
-.image{
->>>>>>> 8b30bb0... portflio.html complete
-=======
-=======
-
-/* Responsive index image*/
->>>>>>> 23ddb09... index imal left layout style in index.html
-img{
->>>>>>> 498c771... Index image:Image: centered and responsive size for small screen  (index)
->>>>>>> 898784a... Index.htm: responsive image size and layout
-  width: 100%;
-  height: auto;
-  display: flex;
-  justify-content: center;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 047c78f... code clean-up
-=======
->>>>>>> 9636964... code clean-up
-=======
->>>>>>> 898784a... Index.htm: responsive image size and layout
-=======
->>>>>>> 23ddb09... index imal left layout style in index.html
-  clear: both;
-  margin-right: 0px;
-  padding-right: 0px;
-}
-
-.box{
-  float: none;
-  margin: auto;
-  margin-bottom: 10px;
-  display: flex;
-  justify-content: center;
+ /* Responsive image size and display*/
+ img{
+   width: 100%;
+   height: auto;
  }
-<<<<<<< HEAD
-  
-=======
-   }
- 
->>>>>>> b48c1ab... .centerSection replaced by .center to be used to center content
 }
 
-
-
-/*  porfolio text container*/
-.text-block {
-  width: 100%;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  margin-top: 99px;
-  background-color:  rgb(33, 119, 99);
-  color: white;
-<<<<<<< HEAD
-  text-align: center;
-}
-
-/*contact page button*/
-.btn{
-  background-color: rgb(33, 119, 99);
-  color: white;
-}
-
-/*contact page form*/
-form{
-  color:rgb(71, 69, 69); ;
-}
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-footer {
-  background-color: rgb(53, 51, 51);
-  text-align: center;
-  height: 40px;
-  color: white;
-  position: fixed;
-<<<<<<< HEAD
-  bottom: 0px;
-  width: 100%;
-  margin-top: 50px;
-=======
-  bottom: 0;
-  width: 100%;
->>>>>>> 658aeda... contact.html layout updated
-
-  border-top: rgb(33, 119, 99);
-  border-top-style: solid;
-  border-width: 6px;
-}
-=======
-=======
-  margin-right: 0px;
->>>>>>> acaf85a... index imal left layout style in index.html
-}
-=======
-
-=======
-
->>>>>>> 2c6b5d9... bottom margin ajusted
-
-.box {
-  width: 250px;
-  height: 150px;
-  background-image: url(../Images/coming.jpg);
-  margin-bottom: 10px;
-  margin-left: 20px;
-  border:   rgb(173, 171, 171);
-  border-style: solid;
-  border-width: 2px;
->>>>>>> 5dd823e... bottom margin ajusted
-
-=======
->>>>>>> 9636964... code clean-up
-  
-=======
-   }
- 
->>>>>>> b48c1ab... .centerSection replaced by .center to be used to center content
-}
-
-<<<<<<< HEAD
-footer {
-  background-color: rgb(53, 51, 51);
-=======
->>>>>>> 047c78f... code clean-up
-  text-align: center;
-  height: 40px;
-  color: white;
-  position: absolute;
-  bottom: 0px;
-  width: 100%;
-  clear: both;
-
-  border-top: rgb(33, 119, 99);
-  border-top-style: solid;
-  border-width: 6px;
-}
-<<<<<<< HEAD
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-  margin-right: 0px;
-<<<<<<< HEAD
->>>>>>> e6cd4c7... index imal left layout style in index.html
-=======
-  padding-right: 0px;
->>>>>>> d7ecc41... Viewport meta tag added
-=======
-=======
->>>>>>> 898784a... Index.htm: responsive image size and layout
-}
-
-  
-}
-
-<<<<<<< HEAD
-footer {
-  background-color: rgb(53, 51, 51);
-  text-align: center;
-  height: 40px;
-  color: white;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-
-<<<<<<< HEAD
-  border-top: rgb(33, 119, 99);
-  border-top-style: solid;
-  border-width: 6px;
-}
-
-<<<<<<< HEAD
->>>>>>> 1291de3... Index image:Image: centered and responsive size for small screen  (index)
- 
->>>>>>> 498c771... Index image:Image: centered and responsive size for small screen  (index)
-=======
-=======
-/*contact page button*/
->>>>>>> 047c78f... code clean-up
-.btn{
-  background-color: rgb(33, 119, 99);
-  color: white;
-}
-
-/*contact page form*/
-form{
-  color:rgb(71, 69, 69); ;
-}
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> f7db6e4... contact.html complete
-=======
->>>>>>> 753f3ce... Update style.css
-=======
-=======
-
->>>>>>> 898784a... Index.htm: responsive image size and layout
-
-=======
->>>>>>> 23ddb09... index imal left layout style in index.html
-footer {
-  background-color: rgb(53, 51, 51);
-  text-align: center;
-  height: 40px;
-  color: white;
-<<<<<<< HEAD
-  position: fixed;
-  bottom: 0px;
-  width: 100%;
-  margin-top: 50px;
-=======
-  position: absolute;
-  bottom: 0px;
-  width: 100%;
-  clear: both;
->>>>>>> 898784a... Index.htm: responsive image size and layout
-
-  border-top: rgb(33, 119, 99);
-  border-top-style: solid;
-  border-width: 6px;
-}
-<<<<<<< HEAD
->>>>>>> 5dd823e... bottom margin ajusted
-=======
-.box {
-  width: 250px;
-  height: 150px;
-  background-image: url(../Images/coming.jpg);
-  margin-bottom: 10px;
-  margin-left: 20px;
-  border:   rgb(173, 171, 171);
-  border-style: solid;
-  border-width: 2px;
-
-  
-  display: inline-block;
-
-  overflow: auto;
-}
-
-/* Bottom right text */
-=======
-/*  porfolio text container*/
->>>>>>> 9636964... code clean-up
-.text-block {
-  width: 100%;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  margin-top: 99px;
-  background-color:  rgb(33, 119, 99);
-  color: white;
-  text-align: center;
-}
-
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 8b30bb0... portflio.html complete
-=======
-=======
-/*contact page button*/
->>>>>>> 9636964... code clean-up
-.btn{
-  background-color: rgb(33, 119, 99);
-  color: white;
-}
-
-/*contact page form*/
-form{
-  color:rgb(71, 69, 69); ;
-}
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> b820f47... contact.html complete
-=======
->>>>>>> d5ddc7e... Update README.md
-=======
 
 footer {
   background-color: rgb(53, 51, 51);
@@ -1041,29 +211,3 @@ footer {
   border-top-style: solid;
   border-width: 6px;
 }
->>>>>>> 2c6b5d9... bottom margin ajusted
-=======
-
-<<<<<<< HEAD
- 
->>>>>>> 498c771... Index image:Image: centered and responsive size for small screen  (index)
-<<<<<<< HEAD
->>>>>>> 898784a... Index.htm: responsive image size and layout
-=======
-=======
-.btn{
-  background-color: rgb(33, 119, 99);
-  color: white;
-}
-
-form{
-  color:rgb(71, 69, 69); ;
-}
-<<<<<<< HEAD
->>>>>>> f7db6e4... contact.html complete
-<<<<<<< HEAD
->>>>>>> 0f7af6b... contact.html complete
-=======
-=======
->>>>>>> 753f3ce... Update style.css
->>>>>>> af514f5... Update style.css
