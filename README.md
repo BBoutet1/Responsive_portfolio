@@ -1,4 +1,4 @@
- Responsive Portfolio
+# Responsive Portfolio
 
 Responsive design of my portfolio incorporating following pages: `index.html`, `portfolio.html` and `contact.html`.
 
